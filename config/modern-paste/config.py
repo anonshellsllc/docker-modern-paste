@@ -2,12 +2,12 @@ import constants
 
 # Domain from which you will access this app
 # If running on a port other than 80, append it after a colon at the end of the domain, e.g. 'domain.com:8080'
-DOMAIN = 'example.com'
+DOMAIN = 'dj.lulz.sh'
 
 # Use HTTPS by default?
 # This is only used for deciding whether to use the http:// or https:// prefix when constructing full URLs,
 # and is not related to your web server configuration.
-DEFAULT_HTTPS = True
+DEFAULT_HTTPS = False
 
 # The type of build environment
 # build_environment.DEV won't minify CSS and Closure-compile JavaScript; build_environment.PROD will.
@@ -47,7 +47,7 @@ DATABASE_NAME = 'modern_paste'
 # IMPORTANT NOTE: You must create this database user yourself (if it doesn't already exist) before running this app.
 DATABASE_USER = 'modern_paste'
 # DATABASE_PASSWORD = 'U4bV96S7uchYnJv4WK4akKfzdqKhDFLOpfm0XspYkTF7gyJawhmpZnBi1KdAQNPqxqoUbNDZzuxX0LOgyMc2g8B2NS2j2Fib'
-DATABASE_PASSWORD = ''
+DATABASE_PASSWORD = 'dpiTSRDRp46ubFnH2OgJ7nL9nqV2jCF3cFyQTTyVp6i0iWmNKVPXdu7wd7vLOnMUlc4xnXNmXB2slCjOAEOt7IDqc3hmOl6C'
 
 # Choose to enable or disable user registration
 # If False, the web interface will not allow access to the user registration page. Additionally, the API endpoint
